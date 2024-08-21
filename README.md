@@ -2,8 +2,8 @@
 
 This repo has the code for a Secret Sharing App Backend. The basic functionality of the app is as follows 
 
-* Share a secret, in response you will get a secretKey
-* Share this secretKey with any who needs to see the secret
+* Share a secret, in response you will get a secretKey.
+* Share this secretKey with any who needs to see the secret.
 * Once the secret is viewed it is deleted from the Database and cannot be viewed again.
 * Once the time is passed, the secret cannot be viewed and will be deleted from the Database. 
 

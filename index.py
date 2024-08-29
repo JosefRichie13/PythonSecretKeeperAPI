@@ -2,13 +2,14 @@ import sqlite3
 from fastapi import FastAPI, Response, status
 from pydantic import BaseModel
 from helpers import *
+from fastapi.responses import FileResponse
 
 
 app = FastAPI()
 
 @app.get("/")
 def landingPage():
-    return "Hello, Welcome to the Secret Keeper API"
+    return FileResponse("SecretKeeper.html")
 
 
 
